@@ -2,12 +2,12 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Caterpillar harry = new Caterpillar("Harry");
+        Butterfly bella = new Butterfly("Bella");
 
       /* A. uncomment code below first
             then study my code and see how colors work! */
 
-        //harry.introduce();
+        bella.introduce();
 
 
       /* B. uncomment code below second
@@ -21,8 +21,8 @@ public class Main
             for more info on try-catch syntax (not required for this course),
             check out https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html */
 
-        //try {
-        //  harry.animate();
-        //} catch (Exception e) { }
+       try {
+           bella.animate();
+       } catch (Exception e) { }
     }
 }
